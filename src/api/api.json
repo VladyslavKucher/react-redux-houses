@@ -1,0 +1,716 @@
+[
+  {
+    "id": 0,
+    "title": "4 bedroom villa with lake view",
+    "description": "Experience luxurious living in this spacious 4-bedroom villa nestled in Palm Springs, Florida. Enjoy stunning lake views, ample natural light, and modern amenities. Perfectly blending comfort and style, this villa offers a serene retreat in a prime location.",
+    "location": "Palm Springs",
+    "img": [
+      "https://photos.zillowstatic.com/fp/5e6c48fb07a82ba9938426bf57b4b3bb-cc_ft_1536.webp",
+      "https://photos.zillowstatic.com/fp/c433e1d555a7a5ed06136a8eed3b4cf5-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/9bfc93b72010eb6f74f169f1e9d07293-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/ab7844a9a0323732278db7f2d29cfe40-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/4dc7401125be1e0c866365f658a2da7d-uncropped_scaled_within_1536_1152.webp"
+    ],
+    "salePrice": 500000,
+    "rentPrice": null,
+    "rent": false,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 4,
+      "bathroom": 3,
+      "built": 2014,
+      "heating": "central",
+      "size": 5200,
+      "parking": "2 attached garage space",
+      "pool": true,
+      "phone": "+1-111-111-1111",
+      "email": "example@example.com"
+    }
+  },
+  {
+    "id": 1,
+    "title": "Charming 3-bedroom cottage",
+    "description": "Discover the enchantment of this charming 3-bedroom cottage nestled in the heart of a peaceful neighborhood. This cozy home offers comfort and tranquility with a beautifully landscaped garden and a warm interior design.",
+    "location": "West Palm Beach",
+    "img": [
+      "https://photos.zillowstatic.com/fp/d814dc1d7900ae9d4dd43f53da948da0-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/0cb41eb8e3a46f2ad73caf2deab3cdc4-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/1f53e2fc1ebe34f41b2d7df83566db33-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/17372a74c374260a26b4b0a3b48d3860-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/40885362d9594e3b2f7e13144bc6d6d5-uncropped_scaled_within_1536_1152.webp"
+    ],
+    "salePrice": 320000,
+    "rentPrice": 1800,
+    "rent": true,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 3,
+      "bathroom": 2,
+      "built": 1950,
+      "heating": "fireplace",
+      "size": 1800,
+      "parking": "1 car garage",
+      "pool": false,
+      "phone": "+1-222-222-2222",
+      "email": "info@example.com"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Modern 2-bedroom Apartament",
+    "description": "Experience modern urban living in this stylish 2-bedroom Apartament located in the heart of the city. Enjoy contemporary design, breathtaking city views, and easy access to shopping, dining, and entertainment.",
+    "location": "Palm Springs",
+    "img": [
+      "https://photos.zillowstatic.com/fp/a45c56f0693111f3bd9dbd39386ddb74-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/03e2d432361aa591fb1bd5511d8e3c68-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/5d5341b59ba9abc23bee76fc18a973e1-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/f43fa5486b875cb829b785d5bd1dda6b-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/7a78299f50b5ac2f283815fcbeb2af01-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/56909e82456f0a7d07bab4f26c146005-uncropped_scaled_within_1536_1152.webp"
+    ],
+    "salePrice": null,
+    "rentPrice": 3800,
+    "rent": true,
+    "sale": false,
+    "details": {
+      "type": "Apartament",
+      "bedroom": 2,
+      "bathroom": 2,
+      "built": 2020,
+      "heating": "central",
+      "size": 1200,
+      "parking": "Assigned parking",
+      "pool": true,
+      "phone": "+1-333-333-3333",
+      "email": "contact@example.com"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Spacious family home",
+    "description": "Discover comfort and space in this spacious family home located in a quiet suburban neighborhood. With 5 bedrooms and a large backyard, this home is perfect for a growing family looking for a serene retreat.",
+    "location": "Mangonia Park",
+    "img": [
+      "https://photos.zillowstatic.com/fp/d352762c206de029e184505c91adf225-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/00cc38a4a4267a3d4a089d5a44c57f7c-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/fcb1197f8bce52c81fa30f7a17f8db94-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/f412318a6e5c93b8a3df8cf3fc8db6cd-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/fdd21f3eb702a39b36ca34b528e2ffa1-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/d10f7b8af6543df7421129ab338d8c37-uncropped_scaled_within_1536_1152.webp"
+    ],
+    "salePrice": 1750000,
+    "rentPrice": null,
+    "rent": false,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 5,
+      "bathroom": 4,
+      "built": 2008,
+      "heating": "central",
+      "size": 3500,
+      "parking": "3 car garage",
+      "pool": true,
+      "phone": "+1-444-444-4444",
+      "email": "sales@example.com"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Luxurious penthouse suite",
+    "description": "Indulge in luxury with this exquisite penthouse suite boasting panoramic views of the city skyline. With top-of-the-line amenities, elegant design, and exclusive access to the building's amenities, this penthouse defines upscale urban living.",
+    "location": "West Palm Beach",
+    "img": [
+      "https://www.trulia.com/pictures/thumbs_6/zillowstatic/fp/e4278cd5a2dcff135d402028dac33dbd-full.webp",
+      "https://www.trulia.com/pictures/thumbs_6/zillowstatic/fp/9d333014daff9332466be6c2125d5521-full.webp",
+      "https://www.trulia.com/pictures/thumbs_6/zillowstatic/fp/c59f4b726671ad3aaeeb3b709830af91-full.webp",
+      "https://www.trulia.com/pictures/thumbs_6/zillowstatic/fp/4dae09b211c92dd521ebdf7c50f4272e-full.webp",
+      "https://www.trulia.com/pictures/thumbs_6/zillowstatic/fp/11142ec412ab9143f7c7f26a7636e64d-full.webp"
+    ],
+    "salePrice": 1500000,
+    "rentPrice": 5000,
+    "rent": true,
+    "sale": true,
+    "details": {
+      "type": "Apartament",
+      "bedroom": 3,
+      "bathroom": 3,
+      "built": 2015,
+      "heating": "central",
+      "size": 2500,
+      "parking": "Valet parking",
+      "pool": true,
+      "phone": "+1-555-555-5555",
+      "email": "info@luxuryhomes.com"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Secluded waterfront retreat",
+    "description": "Escape to a secluded waterfront retreat offering tranquility and privacy. This charming cottage-style home is surrounded by lush greenery and features direct access to a serene lake, making it a perfect oasis for nature enthusiasts.",
+    "location": "Palm Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 450000,
+    "rentPrice": null,
+    "rent": false,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 2,
+      "bathroom": 2,
+      "built": 1995,
+      "heating": "fireplace",
+      "size": 1800,
+      "parking": "Driveway",
+      "pool": false,
+      "phone": "+1-666-666-6666",
+      "email": "contact@lakeviewhomes.com"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Modern waterfront condo",
+    "description": "Discover contemporary waterfront living in this sleek and stylish condo overlooking the bay. Enjoy stunning views, state-of-the-art amenities, and a convenient urban lifestyle in this modern oasis.",
+    "location": "Palm Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 850000,
+    "rentPrice": 3500,
+    "rent": true,
+    "sale": true,
+    "details": {
+      "type": "Apartament",
+      "bedroom": 2,
+      "bathroom": 2,
+      "built": 2019,
+      "heating": "central",
+      "size": 1300,
+      "parking": "Assigned parking space",
+      "pool": true,
+      "phone": "+1-123-456-7890",
+      "email": "info@bayviewcondos.com"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Cozy countryside cabin",
+    "description": "Escape the hustle and bustle in this cozy countryside cabin surrounded by lush forests and picturesque landscapes. With rustic charm and modern amenities, this cabin offers a peaceful retreat for nature lovers and relaxation enthusiasts.",
+    "location": "West Palm Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 220000,
+    "rentPrice": 1500,
+    "rent": true,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 1,
+      "bathroom": 1,
+      "built": 1990,
+      "heating": "wood stove",
+      "size": 800,
+      "parking": "Driveway",
+      "pool": false,
+      "phone": "+1-777-777-7777",
+      "email": "info@woodlandretreat.com"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Contemporary urban loft",
+    "description": "Embrace the urban lifestyle with this sleek contemporary loft featuring open-concept design, industrial aesthetics, and a prime city location. Enjoy living in the heart of the city with easy access to trendy cafes, galleries, and entertainment.",
+    "location": "Palm Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 650000,
+    "rentPrice": 3500,
+    "rent": true,
+    "sale": true,
+    "details": {
+      "type": "Apartament",
+      "bedroom": 2,
+      "bathroom": 2,
+      "built": 2012,
+      "heating": "central",
+      "size": 1600,
+      "parking": "Assigned parking",
+      "pool": false,
+      "phone": "+1-888-888-8888",
+      "email": "contact@downtownlofts.com"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Historic Victorian residence",
+    "description": "Step back in time with this meticulously restored historic Victorian residence showcasing ornate details, elegant interiors, and charming period features. This home offers a unique opportunity to live in a piece of local history.",
+    "location": "West Palm Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 980000,
+    "rentPrice": null,
+    "rent": false,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 4,
+      "bathroom": 3,
+      "built": 1890,
+      "heating": "central",
+      "size": 2800,
+      "parking": "Driveway",
+      "pool": false,
+      "phone": "+1-999-999-9999",
+      "email": "sales@historicresidences.com"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Spectacular oceanfront estate",
+    "description": "Experience the epitome of coastal living with this spectacular oceanfront estate boasting breathtaking views of the sea. This luxurious residence offers a private beach, elegant interiors, and unparalleled tranquility.",
+    "location": "Golden Lakes",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 3800000,
+    "rentPrice": null,
+    "rent": false,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 6,
+      "bathroom": 6,
+      "built": 2006,
+      "heating": "central",
+      "size": 4500,
+      "parking": "3 car garage",
+      "pool": true,
+      "phone": "+1-111-222-3333",
+      "email": "info@seasideestates.com"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Spacious Family Home with Garden",
+    "description": "Enjoy the perfect family living in this spacious home with a beautiful garden. This charming property offers ample space for your family's needs and a serene outdoor area for relaxation and play.",
+    "location": "West Palm Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 620000,
+    "rentPrice": null,
+    "rent": false,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 5,
+      "bathroom": 3,
+      "built": 2008,
+      "heating": "central",
+      "size": 3200,
+      "parking": "2-car attached garage",
+      "pool": false,
+      "phone": "+1-555-555-5555",
+      "email": "info@maplewoodestates.com"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Rustic mountain retreat",
+    "description": "Escape to the mountains with this charming rustic retreat tucked away in a serene alpine setting. With log cabin architecture and stunning mountain views, this home offers a peaceful sanctuary for outdoor enthusiasts and nature lovers.",
+    "location": "West Palm Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 320000,
+    "rentPrice": null,
+    "rent": false,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 2,
+      "bathroom": 2,
+      "built": 1985,
+      "heating": "wood stove",
+      "size": 1400,
+      "parking": "Driveway",
+      "pool": false,
+      "phone": "+1-222-333-4444",
+      "email": "info@mountainretreat.com"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Contemporary coastal condo",
+    "description": "Embrace coastal living with this contemporary condo featuring panoramic ocean views and modern design. Located just steps away from the beach, this condo offers a relaxed and luxurious beachfront lifestyle.",
+    "location": "West Palm Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 890000,
+    "rentPrice": 4000,
+    "rent": true,
+    "sale": true,
+    "details": {
+      "type": "Apartament",
+      "bedroom": 2,
+      "bathroom": 2,
+      "built": 2010,
+      "heating": "central",
+      "size": 1300,
+      "parking": "Assigned parking",
+      "pool": true,
+      "phone": "+1-333-444-5555",
+      "email": "contact@seasidecondos.com"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Country farmhouse",
+    "description": "Experience the charm of country living with this cozy farmhouse nestled on a spacious rural property. Surrounded by rolling hills and open fields, this farmhouse offers a peaceful retreat from city life.",
+    "location": "West Palm Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 280000,
+    "rentPrice": null,
+    "rent": false,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 3,
+      "bathroom": 2,
+      "built": 1972,
+      "heating": "fireplace",
+      "size": 1800,
+      "parking": "Detached garage",
+      "pool": false,
+      "phone": "+1-444-555-6666",
+      "email": "info@countrysidehomes.com"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Modern suburban duplex",
+    "description": "Enjoy the comforts of modern living with this sleek suburban duplex offering two separate units for flexible living arrangements. With contemporary design and easy access to schools and amenities, this duplex is ideal for families.",
+    "location": "Palm Springs",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 560000,
+    "rentPrice": 2800,
+    "rent": true,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 4,
+      "bathroom": 3,
+      "built": 2016,
+      "heating": "central",
+      "size": 2200,
+      "parking": "2 car garage",
+      "pool": false,
+      "phone": "+1-555-666-7777",
+      "email": "contact@suburbanduplex.com"
+    }
+  },
+  {
+    "id": 16,
+    "title": "Elegant city Apartament",
+    "description": "Experience urban living at its finest with this elegant Apartament located in the heart of the city. Enjoy convenient access to cultural attractions, dining, and shopping in this sophisticated downtown residence.",
+    "location": "Riviera Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 750000,
+    "rentPrice": 3200,
+    "rent": true,
+    "sale": true,
+    "details": {
+      "type": "Apartament",
+      "bedroom": 2,
+      "bathroom": 2,
+      "built": 2018,
+      "heating": "central",
+      "size": 1500,
+      "parking": "Valet parking",
+      "pool": true,
+      "phone": "+1-666-777-8888",
+      "email": "info@metrotowersapts.com"
+    }
+  },
+  {
+    "id": 17,
+    "title": "Cozy cottage by the lake",
+    "description": "Escape to this charming cottage nestled by a serene lake, offering stunning waterfront views and a tranquil atmosphere. Enjoy year-round outdoor activities and peaceful relaxation in this cozy retreat.",
+    "location": "Lake Park",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 420000,
+    "rentPrice": null,
+    "rent": false,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 1,
+      "bathroom": 1,
+      "built": 1960,
+      "heating": "wood stove",
+      "size": 900,
+      "parking": "Street parking",
+      "pool": false,
+      "phone": "+1-777-888-9999",
+      "email": "contact@lakeviewcottage.com"
+    }
+  },
+  {
+    "id": 18,
+    "title": "Luxurious penthouse suite",
+    "description": "Indulge in luxury living with this expansive penthouse suite offering breathtaking city skyline views and top-of-the-line amenities. Elevate your lifestyle in this prestigious residence located in a sought-after high-rise building.",
+    "location": "Lakeside Green",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 1600000,
+    "rentPrice": 6000,
+    "rent": true,
+    "sale": true,
+    "details": {
+      "type": "Apartament",
+      "bedroom": 3,
+      "bathroom": 3,
+      "built": 2022,
+      "heating": "central",
+      "size": 3000,
+      "parking": "Private garage",
+      "pool": true,
+      "phone": "+1-888-999-0000",
+      "email": "info@skylinetowers.com"
+    }
+  },
+  {
+    "id": 19,
+    "title": "Historic townhouse",
+    "description": "Step back in time with this meticulously restored historic townhouse showcasing original architectural details and timeless charm. Located in a charming historic district, this townhouse offers a unique blend of old-world elegance and modern comforts.",
+    "location": "Mangonia Park",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 980000,
+    "rentPrice": null,
+    "rent": false,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 4,
+      "bathroom": 2,
+      "built": 1890,
+      "heating": "radiant",
+      "size": 2400,
+      "parking": "Street parking",
+      "pool": false,
+      "phone": "+1-999-000-1111",
+      "email": "contact@heritagetownhouse.com"
+    }
+  },
+  {
+    "id": 20,
+    "title": "Modern Condo with City Views",
+    "description": "Experience urban living at its finest in this modern condo with stunning city views. With sleek design and premium amenities, this condo offers a luxurious lifestyle in the heart of the city.",
+    "location": "West Palm Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 780000,
+    "rentPrice": 4000,
+    "rent": true,
+    "sale": true,
+    "details": {
+      "type": "Apartament",
+      "bedroom": 2,
+      "bathroom": 2,
+      "built": 2016,
+      "heating": "central",
+      "size": 1400,
+      "parking": "1 reserved parking space",
+      "pool": true,
+      "phone": "+1-222-222-2222",
+      "email": "sales@downtownmetropolis.com"
+    }
+  },
+  {
+    "id": 21,
+    "title": "Luxury Waterfront Villa",
+    "description": "Indulge in luxury living with this exquisite waterfront villa. With panoramic water views and top-notch amenities, this villa provides an unparalleled living experience for those seeking elegance and comfort.",
+    "location": "West Palm Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 1250000,
+    "rentPrice": null,
+    "rent": false,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 6,
+      "bathroom": 5,
+      "built": 2005,
+      "heating": "central",
+      "size": 6000,
+      "parking": "3-car garage",
+      "pool": true,
+      "phone": "+1-333-333-3333",
+      "email": "info@seasideestates.com"
+    }
+  },
+  {
+    "id": 22,
+    "title": "Cozy Cottage Retreat",
+    "description": "Escape to the tranquility of this charming cottage retreat. Nestled in a peaceful countryside setting, this cozy cottage offers a serene haven for those seeking relaxation and a connection with nature.",
+    "location": "Lake Park",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 320000,
+    "rentPrice": 2000,
+    "rent": true,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 3,
+      "bathroom": 2,
+      "built": 1990,
+      "heating": "radiant",
+      "size": 1800,
+      "parking": "Driveway",
+      "pool": false,
+      "phone": "+1-444-444-4444",
+      "email": "inquiries@meadowviewcountryside.com"
+    }
+  },
+  {
+    "id": 23,
+    "title": "Contemporary Urban Loft",
+    "description": "Embrace modern urban living in this stylish loft with contemporary design elements. Located in a vibrant city neighborhood, this loft offers a blend of creativity and convenience.",
+    "location": "Riviera Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 540000,
+    "rentPrice": 3000,
+    "rent": true,
+    "sale": true,
+    "details": {
+      "type": "Apartament",
+      "bedroom": 1,
+      "bathroom": 1,
+      "built": 2012,
+      "heating": "ductless mini-split",
+      "size": 1000,
+      "parking": "Street parking",
+      "pool": false,
+      "phone": "+1-555-555-5555",
+      "email": "sales@cityloftdistrict.com"
+    }
+  },
+  {
+    "id": 24,
+    "title": "Secluded Mountain Cabin",
+    "description": "Experience the beauty of nature in this secluded mountain cabin. Surrounded by majestic trees and breathtaking views, this cabin offers a peaceful retreat for outdoor enthusiasts and nature lovers.",
+    "location": "Lake Worth",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 280000,
+    "rentPrice": 1800,
+    "rent": true,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 2,
+      "bathroom": 1,
+      "built": 1985,
+      "heating": "wood stove",
+      "size": 1200,
+      "parking": "Driveway",
+      "pool": false,
+      "phone": "+1-666-666-6666",
+      "email": "info@mountainhaven.com"
+    }
+  },
+  {
+    "id": 25,
+    "title": "Elegant Historic Estate",
+    "description": "Step into history with this elegant historic estate. Featuring exquisite architecture and timeless charm, this estate offers a glimpse into the past while providing modern luxury living.",
+    "location": "West Palm Beach",
+    "img": [
+      "img.url",
+      "imgurl2",
+      "imgurl3"
+    ],
+    "salePrice": 1850000,
+    "rentPrice": null,
+    "rent": false,
+    "sale": true,
+    "details": {
+      "type": "House",
+      "bedroom": 9,
+      "bathroom": 7,
+      "built": 1920,
+      "heating": "radiant",
+      "size": 8000,
+      "parking": "Garage and driveway",
+      "pool": true,
+      "phone": "+1-777-777-7777",
+      "email": "sales@heritagemanor.com"
+    }
+  }
+]

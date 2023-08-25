@@ -19,7 +19,7 @@ const ImgCarousel = ({ data, full }) => {
       {data.map((image, i) => (
         <img
           src={image}
-          alt={`image${i}`}
+          alt={`imageNumber${i}`}
           className={`card__image ${type}__img ${selected !== i ? 'hidden' : ''}`}
           key={i}
         />

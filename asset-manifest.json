@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VladyslavKucher/react-redux-houses/static/css/main.3e43d89d.css",
+    "main.js": "/VladyslavKucher/react-redux-houses/static/js/main.ca244ec1.js",
+    "index.html": "/VladyslavKucher/react-redux-houses/index.html",
+    "main.3e43d89d.css.map": "/VladyslavKucher/react-redux-houses/static/css/main.3e43d89d.css.map",
+    "main.ca244ec1.js.map": "/VladyslavKucher/react-redux-houses/static/js/main.ca244ec1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e43d89d.css",
+    "static/js/main.ca244ec1.js"
+  ]
+}

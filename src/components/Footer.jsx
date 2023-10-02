@@ -11,7 +11,8 @@ const Footer = () => {
         <h3 className='footer__h3'>
           Portfolio project of West Palm Beach, Real Estate (not commercial). <br />
           This project has been done by Vladyslav Kucher. <br /> 
-          Used technologies: React, Redux, JavaScript, HTML, CSS, SCSS, GIT.
+          Used technologies: React, Redux, JavaScript, HTML, CSS, SCSS, GIT. <br />
+          Photos were taken from zillow.com
         </h3>
       </div>
 

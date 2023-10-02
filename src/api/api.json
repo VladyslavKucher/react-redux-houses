@@ -349,13 +349,16 @@
   },
   {
     "id": 12,
-    "title": "Rustic mountain retreat",
-    "description": "Escape to the mountains with this charming rustic retreat tucked away in a serene alpine setting. With log cabin architecture and stunning mountain views, this home offers a peaceful sanctuary for outdoor enthusiasts and nature lovers.",
+    "title": "Charming 2-Bedroom Home in West Palm Beach",
+    "description": "Discover comfort in this 2-bedroom West Palm Beach home. Bright living areas, a well-equipped kitchen, and a serene backyard make it perfect for relaxation. Conveniently located near amenities and parks.",
     "location": "West Palm Beach",
     "img": [
-      "img.url",
-      "imgurl2",
-      "imgurl3"
+      "https://photos.zillowstatic.com/fp/fdbc0cc790d7e6d7fa67bd3d9bd9fd0a-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/542944843f24f7b904e4136c33c6934c-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/6be75be7dfa817528a773359cfeced04-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/c2f55e5cccc8afd6647e67136505c0ad-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/178176f34c5ff6a3baeac667e4c5277f-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/55bc0425fb985c16be58aaf8901ee286-uncropped_scaled_within_1344_1008.webp"
     ],
     "salePrice": 320000,
     "rentPrice": null,
@@ -380,9 +383,13 @@
     "description": "Embrace coastal living with this contemporary condo featuring panoramic ocean views and modern design. Located just steps away from the beach, this condo offers a relaxed and luxurious beachfront lifestyle.",
     "location": "West Palm Beach",
     "img": [
-      "img.url",
-      "imgurl2",
-      "imgurl3"
+      "https://photos.zillowstatic.com/fp/ea4ff70bb43346ba743675bddb68d0e0-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/acdf37a2f57f8237d144f46e1d0af5da-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/1f948299a095a90548872ee8a889e644-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/8750a030ee18db9439c67c983e330449-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/e32f5726f26cf810d9106136ba391708-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/8cc4f9a4026049dcf76da139d227e32b-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/5cea9247c7c49e34abba60dc8d572fa7-uncropped_scaled_within_1344_1008.webp"
     ],
     "salePrice": 890000,
     "rentPrice": 4000,
@@ -405,13 +412,17 @@
     "id": 14,
     "title": "Country farmhouse",
     "description": "Experience the charm of country living with this cozy farmhouse nestled on a spacious rural property. Surrounded by rolling hills and open fields, this farmhouse offers a peaceful retreat from city life.",
-    "location": "West Palm Beach",
+    "location": "Palm Springs",
     "img": [
-      "img.url",
-      "imgurl2",
-      "imgurl3"
+      "https://photos.zillowstatic.com/fp/a2992539ad5a599165366d68d56e6e09-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/a26ee98a5e6af00a9db4177fbaa71c5d-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/5a3a832c38aeb5d0d854706d4a27395d-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/aac31280cd1c62cf55d04cbcc50289df-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/adafa039898b26764eccdf3ad8624bc1-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/a60b062cb6e70148327c93cd958716e8-uncropped_scaled_within_1344_1008.webp",
+      "https://photos.zillowstatic.com/fp/a57ea7ed760f67c6d682b0ce9d58cb0e-uncropped_scaled_within_1344_1008.webp"
     ],
-    "salePrice": 280000,
+    "salePrice": 880000,
     "rentPrice": null,
     "rent": false,
     "sale": true,

@@ -47,12 +47,12 @@ const ProductPage = () => {
         <div className="product__main">
           <h1 className='product__title'>{title}</h1>
           <div className='product__short-info' >
-            <h2>{finalRent()}</h2>
-            <h2>{finalSale()}</h2>
+            <h2 className='product__finalSaleRent'>{finalRent()}</h2>
+            <h2 className='product__finalSaleRent'>{finalSale()}</h2>
             <div className='product__bed-bath'>
-              <p>Type: {type}</p>
-              <p>{size} sqft</p>
-              <p> {bedroom} bed</p>
+              <p>Type: {type},</p>
+              <p>{size} sqft,</p>
+              <p> {bedroom} bed,</p>
               <p> {bathroom} bath</p>
             </div>
             <p className='product__location'>{location}, FL</p>

@@ -1,4 +1,4 @@
-$margin: 1.5vw;
+$margin: 1.75vw;
 
 #root {
   font-family: 'Averia Serif Libre', cursive;
@@ -37,31 +37,24 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   color: #393939;
   margin: $margin 0;
 
   &__name {
     font-weight: 700;
-    font-size: $margin;
+    font-size: 2vw;
     color: #08a000;
     text-decoration: none;
+
+    @media (max-width: 768px) {
+      font-size: 3.5vw;
+    }
   }
 
-  &__button {
-    display: flex;
-    gap: 25px;
-
-    div {
-      transition: color 0.25s ease-in-out;
-      font-size: 1.25vw;
-
-      &:hover {
-        color: #08a000;
-        cursor: pointer;
-      }
-    }
+  @media (max-width: 768px) {
+    margin: 2.5vw 0;
   }
 }
 
@@ -94,7 +87,7 @@ body {
 .cards {
   display: flex;
   justify-content: center;
-  gap: 3vw;
+  gap: 2vw;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -107,7 +100,7 @@ body {
   padding: 1vw;
   border: 0 solid;
   border-radius: 0.5vw;
-  width: 28vw;
+  width: 30.5vw;
   height: 40vw;
   background-color: #ffffff;
 
@@ -224,7 +217,7 @@ body {
     align-items: center;
     justify-content: center;
     position: absolute;
-    width: 65%;
+    width: 65vw;
     height: 10%;
     top: 85%;
     left: 50%;
@@ -234,14 +227,37 @@ body {
     border-radius: 1.5vw;
     z-index: 2;
     font-size: 1.1vw;
+
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      width: 85vw;
+      height: 17.5%;
+      top: 87.5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #F5F5F5;
+      border: 0 solid;
+      border-radius: 2.5vw;
+      z-index: 2;
+      font-size: 2.15vw;
+    }
   }
 
   &__price {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.2vw;
-    margin: 0.2vw;
+    gap: 0.25vw;
+    margin: 0.25vw;
+
+    @media (max-width: 768px) {
+      gap: 0.75vw;
+      margin-right: 0.75vw;
+    }
   }
 
   &__form {
@@ -256,7 +272,119 @@ body {
     height: 1.2vw;
     font-family: inherit;
     font-size: 0.8vw;
-    border: none;
+    border: 1px solid #E6E6E6;
+    border-radius: 0.25vw;
+    appearance: none;
+
+    &:hover {
+      appearance: none;
+    }
+
+    &:focus {
+      appearance: none;
+      outline: none;
+      border: #08a000 0.15vw solid;
+    }
+
+    @media (max-width: 768px) {
+      width: 8.5vw;
+      height: 1.8vw;
+      font-size: 1.35vw;
+    }
+  }
+
+  &__select {
+    margin: 0 0.5vw 0 0.25vw;
+    padding: 0.2vw;
+    box-sizing: border-box;
+    height: 1.55vw;
+    width: 5vw;
+    border: 1px solid #E6E6E6;
+    border-radius: 1vw;
+    font-size: 1vw;
+    color: #393939;
+    appearance: none;
+    background:
+      url(./images/chevron-down-icon.svg) 90% center/0.8vw no-repeat transparent;
+
+    &:focus {
+      outline: none;
+      border: #08a000 0.15vw solid;
+    }
+
+    @media (max-width: 768px) {
+      height: 2.75vw;
+      width: 5vw;
+      font-size: 1.5vw;
+    }
+
+    &-width-8vw {
+      width: 8vw;
+
+      @media (max-width: 768px) {
+        width: 11vw;
+      }
+    }
+
+    &-width-3vw {
+      width: 3vw;
+      height: 1.3vw;
+      font-size: 0.8vw;
+
+      @media (max-width: 768px) {
+        width: 4.5vw;
+        height: 2.5vw;
+        font-size: 1.35vw;
+      }
+    }
+  }
+
+  &__bedBath {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25vw;
+  }
+
+  &__bed {
+    display: flex;
+    justify-content: space-between;
+    width: 9vw;
+
+    @media (max-width: 768px) {
+      width: 16vw;
+    }
+  }
+
+  &__bath {
+    display: flex;
+    justify-content: space-between;
+    width: 9vw;
+
+    @media (max-width: 768px) {
+      width: 16vw;
+    }
+  }
+
+  &__saleRent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2vw;
+
+    @media (max-width: 768px) {
+      gap: 0.5vw;
+    }
+  }
+
+  &__type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2vw;
+
+    @media (max-width: 768px) {
+      gap: 0.5vw;
+    }
   }
 }
 
@@ -319,6 +447,13 @@ body {
 
 .flex {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.2vw;
+
+  @media (max-width: 768px) {
+    gap: 0.4vw;
+  }
 }
 
 .product {
@@ -387,9 +522,9 @@ body {
 
   &__info {
     display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     box-sizing: border-box;
     width: 40%;
     height: 100%;
@@ -435,11 +570,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.2vw;
+
     &-h3 {
       margin-bottom: 0.3vw;
     }
   }
-  
+
   &__contact {
     &-info {
       color: inherit;

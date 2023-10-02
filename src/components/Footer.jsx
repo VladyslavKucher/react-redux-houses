@@ -5,24 +5,18 @@ const Footer = () => {
     <div className='footer'>
       <div className='footer__terms'>
         <h2 className='footer__h2'>
-          Privacy Policy:
+          About project:
         </h2>
 
         <h3 className='footer__h3'>
-          We are committed to safeguarding your personal information and respecting your privacy.
-          Our privacy policy outlines how we collect, use, and protect your data in accordance with applicable regulations.
-        </h3>
-
-        <h2 className='footer__h2'>Terms of Use:</h2>
-
-        <h3 className='footer__h3'>
-          By accessing and using our website, you agree to abide by our terms of use.
-          These terms govern your interactions with our site, content usage, and the responsibilities of both parties.
+          Portfolio project of West Palm Beach, Real Estate (not commercial). <br />
+          This project has been done by Vladyslav Kucher. <br /> 
+          Used technologies: React, Redux, JavaScript, HTML, CSS, SCSS, GIT.
         </h3>
       </div>
 
       <div className='footer__h3'>
-      © Company Name, 2023 - All rights reserved.
+      © Vladyslav Kucher, 2023 - All rights reserved.
       </div>
     </div>
   )

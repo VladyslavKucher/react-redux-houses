@@ -152,17 +152,18 @@
     "description": "Escape to a secluded waterfront retreat offering tranquility and privacy. This charming cottage-style home is surrounded by lush greenery and features direct access to a serene lake, making it a perfect oasis for nature enthusiasts.",
     "location": "Palm Beach",
     "img": [
-      "img.url",
-      "imgurl2",
-      "imgurl3"
+      "https://photos.zillowstatic.com/fp/8160c8a18c4003d919e46dfb81b771bf-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/a8619bba45064f53766d4c6023f2d751-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/0407619b1d613b70446d0091fb854d14-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/9dc93982182f9eefe88711f0a5f40bfb-uncropped_scaled_within_1536_1152.webp"
     ],
-    "salePrice": 450000,
+    "salePrice": 850000,
     "rentPrice": null,
     "rent": false,
     "sale": true,
     "details": {
       "type": "House",
-      "bedroom": 2,
+      "bedroom": 3,
       "bathroom": 2,
       "built": 1995,
       "heating": "fireplace",
@@ -179,9 +180,11 @@
     "description": "Discover contemporary waterfront living in this sleek and stylish condo overlooking the bay. Enjoy stunning views, state-of-the-art amenities, and a convenient urban lifestyle in this modern oasis.",
     "location": "Palm Beach",
     "img": [
-      "img.url",
-      "imgurl2",
-      "imgurl3"
+      "https://photos.zillowstatic.com/fp/11925fac8312a9d9e1eceecb0ef61d60-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/acc865b7699ffa310786ba50db2f3d46-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/2add220510e6b8798c07bbf5583a0a74-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/17ccb70c5c7b05f99a994eb1fbdebecc-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/7feb1225aab206b22affb5c30a74ff80-uncropped_scaled_within_1536_1152.webp"
     ],
     "salePrice": 850000,
     "rentPrice": 3500,
@@ -206,17 +209,18 @@
     "description": "Escape the hustle and bustle in this cozy countryside cabin surrounded by lush forests and picturesque landscapes. With rustic charm and modern amenities, this cabin offers a peaceful retreat for nature lovers and relaxation enthusiasts.",
     "location": "West Palm Beach",
     "img": [
-      "img.url",
-      "imgurl2",
-      "imgurl3"
+      "https://photos.zillowstatic.com/fp/7f5a1410e097ff64750c61c809985e71-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/afc8ef3e31e2c5e51959bbd126909b67-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/9d6ec9bc11bc51dba5ff531a5c69f664-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/fd3fb520558d35033cc43fcb7ecc5157-uncropped_scaled_within_1536_1152.webp"
     ],
-    "salePrice": 220000,
-    "rentPrice": 1500,
+    "salePrice": 280000,
+    "rentPrice": 1700,
     "rent": true,
     "sale": true,
     "details": {
       "type": "House",
-      "bedroom": 1,
+      "bedroom": 2,
       "bathroom": 1,
       "built": 1990,
       "heating": "wood stove",
@@ -233,18 +237,20 @@
     "description": "Embrace the urban lifestyle with this sleek contemporary loft featuring open-concept design, industrial aesthetics, and a prime city location. Enjoy living in the heart of the city with easy access to trendy cafes, galleries, and entertainment.",
     "location": "Palm Beach",
     "img": [
-      "img.url",
-      "imgurl2",
-      "imgurl3"
+      "https://image1.apartmentfinder.com/i2/yMS6IWmf-WC-U7inanjGxFbtgXMPCUgM9vTt4B7IqHE/116/filling-station-lofts-miami-fl-primary-photo.jpg",
+      "https://image1.apartmentfinder.com/i2/-OQQFnOX1ambgl8I3LWv_cJjCElf6j2UndtDNqtuLDc/116/filling-station-lofts-miami-fl-building-photo.jpg",
+      "https://image1.apartmentfinder.com/i2/I7s2bTBPlbllhxrJKuefPB_qY-MQKR7gwR7h0FWaP-w/116/filling-station-lofts-miami-fl-building-photo.jpg",
+      "https://image1.apartmentfinder.com/i2/xk6w5QSdYOIMWTJaQQW28c2APxa-Mcli4FhvfgO21I4/116/filling-station-lofts-miami-fl-loft-701---living-area.jpg",
+      "https://image1.apartmentfinder.com/i2/uiKXVRMDQVDVkxg505doTJq5yHJLIPEFDm7XV-p-558/116/filling-station-lofts-miami-fl-unit-710.jpg"
     ],
-    "salePrice": 650000,
-    "rentPrice": 3500,
+    "salePrice": 550000,
+    "rentPrice": 3200,
     "rent": true,
     "sale": true,
     "details": {
       "type": "Apartament",
-      "bedroom": 2,
-      "bathroom": 2,
+      "bedroom": 1,
+      "bathroom": 1,
       "built": 2012,
       "heating": "central",
       "size": 1600,
@@ -260,9 +266,11 @@
     "description": "Step back in time with this meticulously restored historic Victorian residence showcasing ornate details, elegant interiors, and charming period features. This home offers a unique opportunity to live in a piece of local history.",
     "location": "West Palm Beach",
     "img": [
-      "img.url",
-      "imgurl2",
-      "imgurl3"
+      "https://photos.zillowstatic.com/fp/37797b71119d77d6a24400b6d21f5dbf-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/c24b0353e2cdfc39bd329df9a93c03d5-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/0f391f58b369f873e53a8fc205420d92-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/e307528f9445e695248286192e3d731a-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/39f1dc8d2f85cf1b449e1e7f8090695e-uncropped_scaled_within_1536_1152.webp"
     ],
     "salePrice": 980000,
     "rentPrice": null,
@@ -287,9 +295,12 @@
     "description": "Experience the epitome of coastal living with this spectacular oceanfront estate boasting breathtaking views of the sea. This luxurious residence offers a private beach, elegant interiors, and unparalleled tranquility.",
     "location": "Golden Lakes",
     "img": [
-      "img.url",
-      "imgurl2",
-      "imgurl3"
+      "https://photos.zillowstatic.com/fp/3fce5a371c48f28695ae1f3aec196bcf-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/d74bef5f41354c12045a7be99ee15fcd-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/2d88c977f564bb6fd354b806c2582c65-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/b83ab17bea9b46505566ef765849693a-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/64b35b1967179c8a0b84f97197cebf55-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/fb42a0e54cded8eae24b33ca785f93be-uncropped_scaled_within_1536_1152.webp"
     ],
     "salePrice": 3800000,
     "rentPrice": null,
@@ -314,9 +325,10 @@
     "description": "Enjoy the perfect family living in this spacious home with a beautiful garden. This charming property offers ample space for your family's needs and a serene outdoor area for relaxation and play.",
     "location": "West Palm Beach",
     "img": [
-      "img.url",
-      "imgurl2",
-      "imgurl3"
+      "https://photos.zillowstatic.com/fp/d2d71cf21ee3c90e226ac3625bab2a50-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/2c3c88820514e144d99844a01e127af0-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/5348544904e1d44339bd3cacf0087772-uncropped_scaled_within_1536_1152.webp",
+      "https://photos.zillowstatic.com/fp/a170623fa4defb659e4a4d8b4a0bbedb-uncropped_scaled_within_1536_1152.webp"
     ],
     "salePrice": 620000,
     "rentPrice": null,

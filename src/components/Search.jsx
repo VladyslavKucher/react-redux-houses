@@ -71,9 +71,11 @@ const Search = () => {
         <div className="search__saleRent">
           <span>Sale/Rent</span>
 
-          <select onChange={(event) => {
-            handleSaleRentChange(event.target.value);
-          }}>
+          <select
+            className='search__select'
+            onChange={(event) => {
+              handleSaleRentChange(event.target.value);
+            }}>
             <option value="">All</option>
             <option value="rent">Rent</option>
             <option value="sale">Sale</option>
@@ -83,9 +85,11 @@ const Search = () => {
         <div className="search__type">
           <span>Choose a type</span>
 
-          <select onChange={(event) => {
-            handleType(event.target.value);
-          }}>
+          <select
+            className='search__select search__select-width-8vw'
+            onChange={(event) => {
+              handleType(event.target.value);
+            }}>
             <option value={null}>All</option>
             <option value="house">House</option>
             <option value="apt">Apartament</option>
@@ -97,37 +101,37 @@ const Search = () => {
           <form className='search__form'>
             <div className="flex">
               <p>Min: </p>
-            <label htmlFor="min-price">
-              <input
-                type="number"
-                step={priceStep}
-                placeholder={pricePlaceholder}
-                id="min-price"
-                className='search__input'
-                onChange={(e) => {
-                  handleMinPrice(e.target.value)
-                  console.log(e.target.value)
-                }}
-                disabled={currentFilter === ''}
-              />
-            </label>
+              <label htmlFor="min-price">
+                <input
+                  type="number"
+                  step={priceStep}
+                  placeholder={pricePlaceholder}
+                  id="min-price"
+                  className='search__input'
+                  onChange={(e) => {
+                    handleMinPrice(e.target.value)
+                    console.log(e.target.value)
+                  }}
+                  disabled={currentFilter === ''}
+                />
+              </label>
             </div>
 
             <div className='flex'>
               <p>Max: </p>
-            <label htmlFor="max-price">
-              <input
-                type="number"
-                step={priceStep}
-                placeholder={pricePlaceholder}
-                id="max-price"
-                className='search__input'
-                onChange={(e) => {
-                  handleMaxPrice(e.target.value)
-                }}
-                disabled={currentFilter === ''}
-              />
-            </label>
+              <label htmlFor="max-price">
+                <input
+                  type="number"
+                  step={priceStep}
+                  placeholder={pricePlaceholder}
+                  id="max-price"
+                  className='search__input'
+                  onChange={(e) => {
+                    handleMaxPrice(e.target.value)
+                  }}
+                  disabled={currentFilter === ''}
+                />
+              </label>
             </div>
           </form>
         </div>
@@ -136,9 +140,11 @@ const Search = () => {
           <div className="search__bed">
             <span>Bedroom</span>
 
-            <select onChange={(event) => {
-              handleBed(event.target.value);
-            }}>
+            <select
+              className='search__select search__select-width-3vw'
+              onChange={(event) => {
+                handleBed(event.target.value);
+              }}>
               <option value='0'>All</option>
               <option value="1">1</option>
               <option value="2">2</option>
@@ -155,9 +161,11 @@ const Search = () => {
           <div className="search__bath">
             <span>Bathroom</span>
 
-            <select onChange={(event) => {
-              handleBath(event.target.value);
-            }}>
+            <select
+              className='search__select search__select-width-3vw'
+              onChange={(event) => {
+                handleBath(event.target.value);
+              }}>
               <option value='0'>All</option>
               <option value="1">1</option>
               <option value="2">2</option>

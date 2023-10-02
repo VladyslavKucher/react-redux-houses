@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/react-redux-houses/static/css/main.32ebb7e6.css",
-    "main.js": "/react-redux-houses/static/js/main.7c6d09fc.js",
+    "main.css": "/react-redux-houses/static/css/main.3c7703c4.css",
+    "main.js": "/react-redux-houses/static/js/main.811f8024.js",
     "index.html": "/react-redux-houses/index.html",
-    "main.32ebb7e6.css.map": "/react-redux-houses/static/css/main.32ebb7e6.css.map",
-    "main.7c6d09fc.js.map": "/react-redux-houses/static/js/main.7c6d09fc.js.map"
+    "static/media/chevron-down-icon.svg": "/react-redux-houses/static/media/chevron-down-icon.0932d7470d64308696aa.svg",
+    "main.3c7703c4.css.map": "/react-redux-houses/static/css/main.3c7703c4.css.map",
+    "main.811f8024.js.map": "/react-redux-houses/static/js/main.811f8024.js.map"
   },
   "entrypoints": [
-    "static/css/main.32ebb7e6.css",
-    "static/js/main.7c6d09fc.js"
+    "static/css/main.3c7703c4.css",
+    "static/js/main.811f8024.js"
   ]
 }

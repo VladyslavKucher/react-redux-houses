@@ -69,9 +69,9 @@ const ProductPage = () => {
           </div>
         </div>
         <div className="product__contact">
-            <p>Email: <a className='product__contact-info' href={`mailto:${email}`}>{email}</a></p>
-            <p>Phone: <a className='product__contact-info' href={`tel:${phone}`}>{phone}</a></p>
-          </div>
+          <p>Email: <a className='product__contact-info' href={`mailto:${email}`}>{email}</a></p>
+          <p>Phone: <a className='product__contact-info' href={`tel:${phone}`}>{phone}</a></p>
+        </div>
       </div>
     </div>
   )

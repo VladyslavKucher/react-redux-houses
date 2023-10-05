@@ -1,0 +1,200 @@
+.search {
+  width: 100%;
+  height: 40vw;
+  position: relative;
+  margin-bottom: 5vw;
+
+  &__gradient {
+    position: absolute;
+    background-image:
+      linear-gradient(to bottom, transparent 27%, #F5F5F5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  &__img {
+    height: 100%;
+    width: 100%;
+    border: 0 solid;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    object-fit: cover;
+  }
+
+  &__bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 65vw;
+    height: 10%;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F5F5F5;
+    border: 0 solid;
+    border-radius: 1.5vw;
+    z-index: 2;
+    font-size: 1.1vw;
+    gap: 0.5vw;
+
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      width: 88vw;
+      height: 17.5%;
+      top: 87.5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #F5F5F5;
+      border: 0 solid;
+      border-radius: 2.5vw;
+      z-index: 2;
+      font-size: 2.15vw;
+      gap: 1vw;
+    }
+  }
+
+  &__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+
+    @media (max-width: 768px) {
+      gap: 0.5vw;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1vw;
+  }
+
+  &__input {
+    padding: 0;
+    width: 7.5vw;
+    height: 1.2vw;
+    font-family: inherit;
+    font-size: 0.8vw;
+    border: 1px solid #E6E6E6;
+    border-radius: 0.25vw;
+    appearance: none;
+
+    &:hover {
+      appearance: none;
+    }
+
+    &:focus {
+      appearance: none;
+      outline: none;
+      border: #08a000 0.15vw solid;
+    }
+
+    @media (max-width: 768px) {
+      width: 9.5vw;
+      height: 1.8vw;
+      font-size: 1.35vw;
+    }
+  }
+
+  &__select {
+    padding: 0.2vw;
+    box-sizing: border-box;
+    height: 1.55vw;
+    width: 5vw;
+    border: 1px solid #E6E6E6;
+    border-radius: 1vw;
+    font-size: 1vw;
+    color: #393939;
+    appearance: none;
+    background:
+      url(../images/chevron-down-icon.svg) 90% center/0.8vw no-repeat transparent;
+
+    &:focus {
+      outline: none;
+      border: #08a000 0.15vw solid;
+    }
+
+    @media (max-width: 768px) {
+      height: 2.75vw;
+      width: 5vw;
+      font-size: 1.5vw;
+    }
+
+    &-width-8vw {
+      width: 8vw;
+
+      @media (max-width: 768px) {
+        width: 11vw;
+      }
+    }
+
+    &-width-3vw {
+      width: 3vw;
+      height: 1.3vw;
+      font-size: 0.8vw;
+
+      @media (max-width: 768px) {
+        width: 4.5vw;
+        height: 2.5vw;
+        font-size: 1.35vw;
+      }
+    }
+  }
+
+  &__bedBath {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25vw;
+  }
+
+  &__bed {
+    display: flex;
+    justify-content: space-between;
+    width: 8.5vw;
+
+    @media (max-width: 768px) {
+      width: 16vw;
+    }
+  }
+
+  &__bath {
+    display: flex;
+    justify-content: space-between;
+    width: 8.5vw;
+
+    @media (max-width: 768px) {
+      width: 16vw;
+    }
+  }
+
+  &__saleRent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+
+    @media (max-width: 768px) {
+      gap: 0.5vw;
+    }
+  }
+
+  &__type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+
+    @media (max-width: 768px) {
+      gap: 0.5vw;
+    }
+  }
+}

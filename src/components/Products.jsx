@@ -1,17 +1,20 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import Product from "./Product";
 import houses from '../api/api.json'
 import { useSelector } from "react-redux";
 import Search from "./Search";
+import Pagination from "./Pagination";
 
 const AppRoutes = () => {
   const saleRentType = useSelector(state => state.saleRent);
   const maxMinPrice = useSelector(state => state.price);
   const bedBath = useSelector(state => state.bedBath);
   const houseType = useSelector(state => state.type);
+  const currentPage = useSelector(state => state.page);
+  const [postsPerPage, setPostsPerPage] = useState(6);
 
   const filteredHouses = useMemo(() => {
-  const newHouses = [...houses];
+    const newHouses = [...houses];
 
     return newHouses.filter(property => {
       if (saleRentType === "rent" && !property.rent) {
@@ -34,6 +37,7 @@ const AppRoutes = () => {
       }
 
       const { max, min } = maxMinPrice;
+
       if (+max && price() > +max) {
         return false;
       }
@@ -60,6 +64,14 @@ const AppRoutes = () => {
     });
   }, [saleRentType, maxMinPrice, bedBath, houseType]);
 
+  const paginatedHouses = useMemo(() => {
+    const lastPostIndex = currentPage * postsPerPage;
+    const firstPostIndex = lastPostIndex - postsPerPage;
+    const newPaginatedHouses = [...filteredHouses];
+
+    return newPaginatedHouses.slice(firstPostIndex, lastPostIndex);
+  }, [filteredHouses, currentPage]);
+
   return (
     <>
       <Search />
@@ -69,11 +81,13 @@ const AppRoutes = () => {
           {filteredHouses.length === 0 && (
             <h1>No available houses</h1>
           )}
-          {filteredHouses.map(house => (
+          {paginatedHouses.map(house => (
             <Product house={house} />
           ))}
         </div>
       </div>
+
+      <Pagination totalPosts={filteredHouses.length} postsPerPage={postsPerPage} />
     </>
   )
 }

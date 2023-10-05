@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React, { useMemo } from 'react';
 
 import { useSelector, useDispatch } from 'react-redux';
 import { setSaleRent } from '../features/saleRent/saleRentSlice';

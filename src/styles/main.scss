@@ -1,0 +1,62 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'cards';
+@import 'card';
+@import 'search';
+@import 'carousel';
+@import 'indicators';
+@import 'indicator';
+@import 'product';
+@import 'pagination';
+
+
+#root {
+  font-family: 'Averia Serif Libre', cursive;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #393939;
+  height: 100%;
+}
+
+.app {
+  margin: 0 1vw;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 98vw;
+}
+
+.content {
+  flex: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.2vw;
+
+  @media (max-width: 768px) {
+    gap: 0.4vw;
+  }
+}

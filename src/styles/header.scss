@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #393939;
+  margin: $margin 0;
+
+  &__name {
+    font-weight: 700;
+    font-size: 2vw;
+    color: #08a000;
+    text-decoration: none;
+
+    @media (max-width: 768px) {
+      font-size: 3.5vw;
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin: 2.5vw 0;
+  }
+}
